@@ -21,8 +21,7 @@ int main(){
                 front += i.first;
                 back = i.first + back;
                 i.second -= 2;
-                //cout<<front<<" "<<middle<<" "<<back<<endl;
-            }else{
+                }else{
                 middle = i.first;
                 i.second--;
             }
