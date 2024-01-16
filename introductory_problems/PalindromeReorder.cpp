@@ -10,7 +10,6 @@ int main(){
     string front = "", middle = "", back = "";
     long long odd_count = 0;
     for(auto &i:m){
-        //cout<<i.first<<" "<<i.second<<endl;
         if(i.second % 2 != 0) odd_count++;
         if(odd_count > 1) {
             cout << "NO SOLUTION" << endl;
